@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>
+            Oversigt over tidsregistreringer uge {weekNumber}.
+        </h1>
+        <br />
+        <h3>
+            {name} - {weeklyHourAmount} timer registreret i denne uge. @Html.ActionLink("")
+        </h3>
+        <br />
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>
+                    <b>
+                        Tidsstempler
+                    </b>
+                </th>
+                <th>
+                    <b>
+                        Tjek ind = 1 / Tjek ud = 2
+                    </b>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    {timestampsDay1}
+                </td>
+                <td>
+                    {checkStatusDay1}
+                </td>
+                <td>
+                    {hourAmountDay1}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {timestampsDay2}
+                </td>
+                <td>
+                    {checkStatusDay2}
+                </td>
+                <td>
+                    {hourAmountDay2}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {timestampsDay3}
+                </td>
+                <td>
+                    {checkStatusDay3}
+                </td>
+                <td>
+                    {hourAmountDay3}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {timestampsDay4}
+                </td>
+                <td>
+                    {checkStatusDay4}
+                </td>
+                <td>
+                    {hourAmountDay4}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {timestampsDay5}
+                </td>
+                <td>
+                    {checkStatusDay5}
+                </td>
+                <td>
+                    {hourAmountDay5}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {timestampsDay6}
+                </td>
+                <td>
+                    {checkStatusDay6}
+                </td>
+                <td>
+                    {hourAmountDay6}
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
